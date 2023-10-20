@@ -1,0 +1,71 @@
+<div class = "container">
+  <div class = "top-bar">
+    <div class = "logo">
+      <img src = "assets/logo.jpeg" class = "logo-image">
+    </div>
+    <div class = "icon">
+      Home
+    </div>
+    <div class = "icon">
+      Informations
+    </div>
+    <div class = "icon">
+      Contact
+    </div>
+    <div class = "icon">
+      Cars list
+    </div>
+    <div class = "icon">
+      <i class="fa fa-facebook"></i>
+    </div>
+    <div class = "icon">
+      <i class="fa fa-instagram"></i>
+    </div>
+  </div>
+  <div class = "pictures">
+    <img src = "assets/picture1.jpg" style = "width: 100%; height: 100%;" *ngIf = "displayPicture1 == true">
+    <img src = "assets/picture2.jpg" style = "width: 100%; height: 100%;" *ngIf = "displayPicture2 == true">
+    <img src = "assets/picture3.jpg" style = "width: 100%; height: 100%;" *ngIf = "displayPicture3 == true">
+    <img src = "assets/picture4.jpg" style = "width: 100%; height: 100%;" *ngIf = "displayPicture4 == true">
+    <img src = "assets/picture5.jpg" style = "width: 100%; height: 100%;" *ngIf = "displayPicture5 == true">
+    <img src = "assets/picture6.jpg" style = "width: 100%; height: 100%;" *ngIf = "displayPicture6 == true">
+  </div>
+  <div class = "selection-bar">
+    <div class = "circle" id = "circle1" (click) = "switchPicture1()" *ngIf = "displayPicture1 == false">
+      <p>&bigcirc;</p>
+    </div>
+    <div class = "clicked-circle" id = "circle1" (click) = "switchPicture1()" *ngIf = "displayPicture1 == true">
+      <p>&bigcirc;</p>
+    </div>
+    <div class = "circle" id = "circle2" (click) = "switchPicture2()" *ngIf = "displayPicture2 == false">
+      <p>&bigcirc;</p>
+    </div>
+    <div class = "clicked-circle" id = "circle2" (click) = "switchPicture2()" *ngIf = "displayPicture2 == true">
+      <p>&bigcirc;</p>
+    </div>
+    <div class = "circle" id = "circle3" (click) = "switchPicture3()" *ngIf = "displayPicture3 == false">
+      <p>&bigcirc;</p>
+    </div>
+    <div class = "clicked-circle" id = "circle3" (click) = "switchPicture3()" *ngIf = "displayPicture3 == true">
+      <p>&bigcirc;</p>
+    </div>
+    <div class = "circle" id = "circle4" (click) = "switchPicture4()" *ngIf = "displayPicture4 == false">
+      <p>&bigcirc;</p>
+    </div>
+    <div class = "clicked-circle" id = "circle4" (click) = "switchPicture4()" *ngIf = "displayPicture4 == true">
+      <p>&bigcirc;</p>
+    </div>
+    <div class = "circle" id = "circle5" (click) = "switchPicture5()" *ngIf = "displayPicture5 == false">
+      <p>&bigcirc;</p>
+    </div>
+    <div class = "clicked-circle" id = "circle5" (click) = "switchPicture5()" *ngIf = "displayPicture5 == true">
+      <p>&bigcirc;</p>
+    </div>
+    <div class = "circle" id = "circle6" (click) = "switchPicture6()" *ngIf = "displayPicture6 == false">
+      <p>&bigcirc;</p>
+    </div>
+    <div class = "clicked-circle" id = "circle6" (click) = "switchPicture6()" *ngIf = "displayPicture6 == true">
+      <p>&bigcirc;</p>
+    </div>
+  </div>
+</div>
