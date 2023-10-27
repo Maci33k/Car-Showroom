@@ -66,4 +66,27 @@
   cursor: default;
 }
 
+.bottom-bar
+{
+  height: 350px;
+  display: flex;
+}
 
+.info
+{
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex: 1;
+  margin-left: 180px;
+}
+
+.map
+{
+  width: 40%;
+  flex: 1;
+  height: 100%;
+  margin-right: 150px;
+}
