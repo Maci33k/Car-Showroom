@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-main-page',
@@ -6,6 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main-page.component.css']
 })
 export class MainPageComponent {
+
+  pagesArray: boolean[] = [true, false];
+
+
+  @Output()
+  eventTask = new EventEmitter<boolean[]>();
+
+
   displayPicture1 : boolean = true;
   displayPicture2 : boolean = false;
   displayPicture3 : boolean = false;
@@ -78,6 +86,24 @@ export class MainPageComponent {
       this.displayPicture6 = true;
     }
   }
+
+  displayMain(task: boolean[]) {
+    task[0] = true;
+    task[1] = false;
+    this.eventTask.emit(task);
+  }
+
+  displayContact(task: boolean[]) {
+    task[0] = false;
+    task[1] = true;
+    this.eventTask.emit(task);
+  }
+
+
+
+
+
+
 
 
 

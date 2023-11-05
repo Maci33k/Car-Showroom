@@ -1,1 +1,2 @@
-<app-main-page>
+<app-main-page (eventTask)="displayMain($event)" (eventTask)="displayContact($event)" *ngIf="mainPage == true"></app-main-page>
+<app-contact *ngIf="contactPage == true"></app-contact>

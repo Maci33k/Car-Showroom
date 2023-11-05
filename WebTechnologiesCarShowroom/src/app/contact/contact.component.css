@@ -1,0 +1,86 @@
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.content{
+  padding-top: 20%;
+  text-align: center;
+  font-size: 170%;
+}
+
+.container {
+  font-family: "Times New Roman", Times, serif;
+
+  border-radius:5px;
+  background-color: #f2f2f2;
+  padding: 100%;
+}
+
+div{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=email], select, textarea {
+  width:80%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+button[type=submit] {
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+button[type=submit]:hover {
+  background-color: rgba(255, 0, 0, 0.637);
+}
+
+/*codice per icone*/
+.fa {
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 1;
+}
+
+.fa-facebook {
+
+  color: blue;
+}
+
+.fa-instagram{
+
+  color:magenta;
+}
+
+
