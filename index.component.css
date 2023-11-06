@@ -1,0 +1,30 @@
+/*header*/
+.top-bar
+{
+  height: 100px;
+  align-items: center;
+  display: flex;
+}
+
+.logo
+{
+  align-items: center;
+  display: flex;
+  padding-right: 450px;
+}
+
+.logo-image
+{
+  height: 80px;
+}
+
+.icon
+{
+  padding-right: 50px;
+  cursor: pointer;
+}
+
+.icon:hover
+{
+  color: silver;
+}

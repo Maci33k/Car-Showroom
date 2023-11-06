@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="it">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="index.component.css">
+
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Informations</title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+        <link href="bootstrap.min.css" rel="stylesheet">
+        <link href="bootstrap-icons.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/slick.css"/>
+
+        <link href="tooplate-little-fashion.css" rel="stylesheet">
+
+        
+
+    </head>
+    
+    <body>
+
+        <!--header-->
+        <div class = "logo">
+            <img src = "assets/logo.jpeg" class = "logo-image">
+          </div>
+          <div class = "icon" (click)="displayMain(pagesArray)">
+            Home
+          </div>
+          <div class = "icon">
+            Informations
+          </div>
+          <div class = "icon" (click)="displayContact(pagesArray)">
+            Contact
+          </div>
+          <div class = "icon">
+            Cars list
+          </div>
+          <div class = "icon">
+            <i class="fa fa-facebook"></i>
+          </div>
+          <div class = "icon">
+            <i class="fa fa-instagram"></i>
+        </div>
+
+        <!--informations-->
+        <section class="preloader">
+            <div class="spinner">
+                <span class="sk-inner-circle"></span>
+            </div>
+        </section>
+    
+        <main>
+
+
+
+
+           <!-- NAV BAR DA INSERIRE -->
+
+
+            <section class="about section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 text-center">
+                            <h2 class="mb-5" style="margin-top: -20px;">Ecco come <span> lavoriamo </span> </h2>
+                        </div>
+
+                        <div class="col-lg-2 col-12 mt-auto mb-auto">
+                            <ul class="nav nav-pills mb-5 mx-auto justify-content-center align-items-center" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">INTRODUZIONE</button>
+                                </li>
+
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-youtube-tab" data-bs-toggle="pill" data-bs-target="#pills-youtube" type="button" role="tab" aria-controls="pills-youtube" aria-selected="true">Video youtube</button>
+                                </li>
+
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill" aria-selected="false">Altre info</button>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-10 col-12">
+                            <div class="tab-content mt-2" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="sfondo.jpg" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">La <span> migliore </span> <br> concessionaria <span>per </span> te.</h4>
+
+                                                <p> La nostra azienda ha una storia radicata nel settore automobilistico che risale al <b>lontano 1975</b>, quando Arturo Martini ha avviato questa attività. Nel corso degli anni, grazie al nostro <b>impegno</b> e alla forte dedizione, siamo cresciuti fino a far diventare ArturAuto un <strong>sinonimo di professionalità, affidabilità e competenza!</strong> Siamo orgogliosi di offrire ai nostri clienti una vasta gamma di autovetture usate plurimarca,
+                                                     tutti selezionati e garantiti, e il tutto a prezzi molto competitivi.
+
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <a href="#" class="custom-link mb-2">
+                                                    
+                                                        <i class="bi-arrow-right ms-2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-youtube" role="tabpanel" aria-labelledby="pills-youtube-tab">
+
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <div class="ratio ratio-16x9">
+                                                <iframe src="https://www.youtube.com/embbed/watch?v=EgwCyJ_JYQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Video youtube</h4>
+
+                                                <p>La nostra missione va oltre la semplice vendita di automobili. Grazie al contributo dei nostri validi collaboratori, gestiamo la nostra azienda con attenzione e professionalità, mantenendo al contempo un approccio <b>familiare</b> che ci consente di distinguerci in un mercato sempre più affollato e competitivo. <strong>Ogni giorno mettiamo a disposizione la nostra preparazio
+                                                    ne e la nostra correttezza</strong>, e nel tempo abbiamo conquistato una significativa fetta di mercato a livello nazionale.</p>
+
+                                                <div class="mt-2 mt-lg-auto">
+                                         
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="imm2.png" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Altre informazioni</h4>
+
+                                                <p>Siamo orgogliosi di essere una famiglia di appassionati di auto. I nostri dipendenti, molti dei quali sono con noi da decenni, condividono la stessa passione per le automobili e lavorano instancabilmente per portare ai nostri clienti le ultime innovazioni e la massima qualità. Ci prendiamo il tempo di capire
+                                                     le esigenze dei nostri clienti, perché crediamo che l'acquisto di un'auto debba essere un'esperienza speciale
+                                                    
+                                                     ontinueremo a evolverci e a innovare per offrire i veicoli più all'avanguardia e le soluzioni di mobilità più avanzate. Siamo impegnati a mantenere i nostri alti standard di servizio e a costruire relazioni durature con i nostri clienti</p>
+
+                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="front-product" style="margin-top: -50px;">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center" style="background-color: white;">
+
+                        <div class="col-lg-6 col-12">
+                            <img src="altra_imm.png" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <div class="px-5 py-5 py-lg-0">
+                                
+                                <h2 class="mb-4"><span>Visita</span> il nostro parco auto</h2>
+
+                                <p class="lead mb-4">
+                                    I nostri dipendenti, molti con noi da decenni, condividono la stessa passione per
+                                     le automobili e lavorano instancabilmente per offrire ai clienti le ultime innovazioni e 
+                                     massima qualità. Continueremo a evolverci e innovare per offrire veicoli all'avanguardia e 
+                                     soluzioni di mobilità avanzate, mantenendo alti standard di servizio e costruendo relazioni 
+                                     durature con i clienti. Siamo pronti ad affrontare le sfide 
+                                    e sfruttare le opportunità dell'industria automobilistica.
+                                Tutte le nostre macchine le puoi trovare qui.</p>
+
+                                <a href="lista_DA INSERIRE" class="custom-link">
+                                   LISTA VEICOLI 
+                                    <i class="bi-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <br>
+            <br>
+            <br>
+
+        </main>
+
+      
+        
+        <!-- JAVASCRIPT FILES -->
+        <script src="jquery.min.js"></script>
+        <script src="bootstrap.bundle.min.js"></script>
+        <script src="Headroom.js"></script>
+        <script src="jQuery.headroom.js"></script>
+        <script src="slick.min.js"></script>
+        <script src="custom.js"></script>
+
+    </body>
+</html>
