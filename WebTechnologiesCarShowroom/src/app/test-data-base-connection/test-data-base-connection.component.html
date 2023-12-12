@@ -1,0 +1,43 @@
+<form #AddData="ngForm"(ngSubmit)="addData(AddData.value)">
+
+<input type ="text"ngModel id="username" name="username" placeholder="Username">
+<input type ="text"ngModel id="first_name" name="first_name" placeholder="First Name">
+<input type ="text"ngModel id="last_name" name="last_name" placeholder="Last Name">
+
+<input type = "submit" id="readData" name="signup_submit"value="Register User"/>
+
+</form>
+<br>
+<form #ReadData="ngForm"(ngSubmit)="readData(ReadData.value)">
+
+  <input type ="text"ngModel id="username" name="username" placeholder="Username">
+  <input type ="text"ngModel id="first_name" name="first_name" placeholder="First Name">
+  <input type ="text"ngModel id="last_name" name="last_name" placeholder="Last Name">
+
+  <input type = "submit" id="readData" name="signup_submit"value="searchUser"/>
+
+  </form>
+
+  <br>
+
+  <form #UpdateData="ngForm"(ngSubmit)="updateData(UpdateData.value)">
+
+    <input type ="text"ngModel id="username" name="username" placeholder="Username">
+    <input type ="text"ngModel id="first_name" name="first_name" placeholder="First Name">
+    <input type ="text"ngModel id="last_name" name="last_name" placeholder="Last Name">
+
+    <input type = "submit" id="readData" name="signup_submit"value="updateUser"/>
+
+    </form>
+
+    <form #RemoveData="ngForm"(ngSubmit)="removeData(UpdateData.value)">
+
+      <input type ="text"ngModel id="username" name="username" placeholder="Username">
+      <input type ="text"ngModel id="first_name" name="first_name" placeholder="First Name">
+      <input type ="text"ngModel id="last_name" name="last_name" placeholder="Last Name">
+
+      <input type = "submit" id="readData" name="signup_submit"value="removeUser"/>
+
+      </form>
+
+

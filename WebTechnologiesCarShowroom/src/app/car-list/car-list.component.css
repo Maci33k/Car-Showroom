@@ -1,0 +1,52 @@
+#contlist{
+    padding: 1%;
+}
+
+.btn{
+    background-color: red;
+}
+
+.btn:hover{
+    background-color: rgba(255, 0, 0, 0.637);
+}
+
+.col{
+    padding: 25px;
+}
+.card:hover{
+    transform: scale(1.01); 
+}
+
+#sfondo img{
+max-width: 100%;
+height: auto;
+}
+
+.w3-large{
+    font-weight: bold;
+   
+}
+
+#titolo{
+    text-align: center;
+}
+
+#riga1 .col {
+    text-align: center;
+}
+
+#riga1 .fa {
+    display: block;
+    margin: 0 auto;
+}
+
+#titolo {
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#riga1 p {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}

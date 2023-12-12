@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "carshowroom-fc156"
+  },
+  "targets": {
+    "carshowroom-fc156": {
+      "hosting": {
+        "WebTechnologiesCarShowroom": [
+          "carshowroom-fc156"
+        ]
+      }
+    }
+  }
+}

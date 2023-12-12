@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="opel.component.css">
+<!--link versione nuova--> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+    <div class="float-left">
+       
+      <h1>Opel Mokka Cosmo 1.7 Diesel <img src="assets/opel/opel logo.png" ></h1>
+     </div>
+    
+     
+     
+ <div class="container" id="contenitore1"> 
+   
+     <div class="float-right">
+        <h1>8.000€</h1>
+     </div>
+    
+      
+     <ngb-carousel *ngIf="images" id="carosello">
+        <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+                <img [src]="images[0]" alt="Random first slide" />
+            </div>
+            
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+                <img [src]="images[1]" alt="Random second slide" />
+            </div>
+            
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+                <img [src]="images[2]" alt="Random third slide" />
+            </div>
+            
+        </ng-template>
+
+        <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+                <img [src]="images[3]" alt="Random 4 slide" />
+            </div>
+            
+        </ng-template>
+
+        <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+                <img [src]="images[4]" alt="Random 5slide" />
+            </div>
+            
+        </ng-template>
+
+        <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+                <img [src]="images[5]" alt="Random 6slide" />
+            </div>
+            
+        </ng-template>
+    </ngb-carousel>
+
+
+
+
+
+<div class="container" id="contenitore2">
+    <h3>Caratteristiche</h3>
+    <div class="row row-cols-2 row-cols-sm-4 ">
+      <div class="col"> <strong>Stato:<br></strong> Usato<p><!--riga vuota--></p></div>
+      <div class="col"><strong>Immatricolazione:<br></strong> 03/2014<p></p></div>
+      <div class="col"><strong>Porte:<br></strong> 5<p></p></div>
+      <div class="col"><strong>Chilometri:<br></strong> 80.000 Km<p></p></div>
+      <div class="col"><strong>Alimentazione:<br></strong> Diesel<p></p></div>
+      <div class="col"><strong>Cambio:<br></strong> Manuale<p></p></div>
+      <div class="col"><strong>Colore esterno:<br></strong> Rosso metalizzato<p></p></div>
+      <div class="col"><strong>Interno:<br></strong> Tessuto<p></p></div>
+      <div class="col"><strong>Cilindrata:<br></strong> 1.7cc<p></p></div>
+      <div class="col"><strong>Potenza:<br></strong> 96 kW / 130 CV<p></p></div>
+      
+    </div>
+</div>
+
+
+<div class="container" id="contenitore3">
+    <h3>Equipaggiamenti</h3>
+    <div class="row row-cols-2 row-cols-sm-4 ">
+      <div class="col"><li>asr</li></div>
+      <div class="col"><li>vetri oscurati</li></div>
+      <div class="col"><li>bracciolo anteriore e posteriore</li></div>
+      <div class="col"><li>cerchi in lega 17"</li></div>
+      <div class="col"><li>chiusura interna antirapina</li></div>
+      <div class="col"><li>city</div>
+      <div class="col"><li>sistema bluetooth</li></div>
+      <div class="col"><li>clima automatico</li></div>
+      <div class="col"><li>comandi al volante</li></div>
+      <div class="col"><li>computer di bordo</li></div>
+      <div class="col"><li>cromature varie</li></div>
+      <div class="col"><li>cruise control</li></div>
+      <div class="col"><li>fendinebbia</li></div>
+      <div class="col"><li>specchi retrovisori elettrici</div>
+      <div class="col"><li> hill holder</li></div>
+      <div class="col"><li>ingresso AUX e USB</li></div>
+      <div class="col"><li>isofix</li></div>
+      <div class="col"><li>vernice metalizzata</li></div>
+      <div class="col"><li>luci diurne led</li></div>
+      <div class="col"><li>navigatore</li></div>
+      <div class="col"><li>retrocamera</div>
+      <div class="col"><li>ruota di scorta</li></div>
+      <div class="col"><li>vetri elettrici anteriori e posteriori</li></div>
+      <div class="col"><li>Sedili posteriori con terzo poggiatesta</li></div>
+      <div class="col"><li>bracciolo anteriore e posteriore</li></div>
+      <div class="col"><li>sensore di pressione degli pneumatici</li></div>
+      <div class="col"><li>sensore fotocromatico</li></div>
+    </div>
+  </div>
+  <div class="container" id="contenitore4">
+    <div>
+      <h3>Descrizione veicolo</h3>
+
+
+      Se stai cercando un SUV che unisca eleganza, comfort e prestazioni, l'Opel Mokka Cosmo è l'auto che fa per te. Questo modello, prodotto nel dicembre 2014, è un'ottima opzione per chi cerca un veicolo versatile e affidabile. Con soli 80.000 km sul contachilometri, questa vettura è in ottime condizioni ed è pront L'Opel Mokka Cosmo è equipaggiata con un potente motore diesel da 1.7 litri, in grado di erogare 130 cavalli (96 KW). Questo significa che avrai la potenza necessaria per affrontare qualsiasi tipo di percorso, dalla guida in città agli avventurosi viaggi su strada, mentre continui a beneficiare dell'efficienza nel consumo di carburante.
+Questo SUV si distingue per il suo design elegante, con linee fluide e dettagli curati. Gli interni offrono spazio e comfort per il conducente e i passeggeri, garantendo un'esperienza di guida piacevole e rilassante. La plancia è dotata di un sistema di infotainment all'avanguardia, che include funzionalità di connettività e intrattenimento.
+Questo modello è equipaggiato con caratteristiche di sicurezza avanzate, tra cui airbag, sistemi di frenata antibloccaggio (ABS) e controllo elettronico della stabilità, che garantiscono una guida sicura in qualsiasi situazione.
+Prezzo Competitivo: Questo veicolo è offerto a un prezzo altamente competitivo, rendendolo un'opzione accessibile per coloro che desiderano un SUV di qualità.
+In breve, l'Opel Mokka Cosmo è un veicolo che combina stile, comfort, prestazioni e sicurezza, offrendo un'esperienza di guida eccezionale. Se sei alla ricerca di un SUV di qualità, questa potrebbe essere l'auto perfetta per te. Non perdere l'opportunità di portare a casa questo veicolo eccezionale e iniziare a vivere avventure su strada indimenticabili.
+
+  </div>
+ </div>
+
+    
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>    
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+ <!--link vesione nuova-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+

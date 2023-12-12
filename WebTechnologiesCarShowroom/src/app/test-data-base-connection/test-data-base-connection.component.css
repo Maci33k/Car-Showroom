@@ -1,0 +1,12 @@
+.data-container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.data-item {
+  flex: 1 0 calc(50% - 10px); /* 50% szerokości z marginesem */
+  margin: 5px; /* dostosuj margines zgodnie z preferencjami */
+  background-color: gray;
+  padding-bottom: 10px;
+}

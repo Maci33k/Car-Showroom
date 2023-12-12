@@ -1,0 +1,114 @@
+.list-field {
+  height: 200px;
+  width: 80%;
+  margin: auto;
+  border-radius: 30px;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.picture {
+  height: 80%;
+  width: 20%;
+  border-radius: 20px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+.name {
+  height: 30%;
+  width: 200px;
+  border-radius: 20px;
+  margin-left: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.description {
+  height: 80%;
+  width: 300px;
+  border-radius: 20px;
+  margin-left: 20px;
+  background-color: white;
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+.price {
+  height: 30%;
+  width: 100px;
+  border-radius: 20px;
+  margin-left: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.buttons-field {
+  height: 80%;
+  width: 100px;
+  margin-left: 20px;
+}
+
+.edit-button {
+  height: 40%;
+  width: 100%;
+  background-color: green;
+  border-radius: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-button:hover {
+  cursor: pointer;
+  background-color: #013220;
+}
+
+.delete-button {
+  margin-top: 25px;
+  height: 40%;
+  width: 100%;
+  background-color: red;
+  border-radius: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-button:hover {
+  cursor: pointer;
+  background-color: #8b0000;
+}
+
+.add-button {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  background-color: white;
+}
+
+.add-car-form {
+  margin: auto;
+}
+
+svg {
+  fill: red;
+  stroke: blue;
+}
+
+svg:hover {
+  cursor: pointer;
+  stroke: red;
+}

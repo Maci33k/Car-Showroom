@@ -1,0 +1,64 @@
+/*home page*/
+.pictures
+{
+  background-color: black;
+  height: auto;
+  width: 50%;
+  margin: auto;
+}
+
+.selection-bar
+{
+  align-items: center;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.circle:hover
+{
+  color: red;
+}
+
+.circle
+{
+  cursor: pointer;
+}
+
+.clicked-circle
+{
+  color: red;
+  cursor: default;
+}
+
+.bottom-bar
+{
+  height: 350px;
+  display: flex;
+}
+
+.info
+{
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex: 1;
+  margin-left: 180px;
+}
+
+.map
+{
+  width: 400%;
+  flex: 1;
+  height: auto;
+  margin-right: 150px;
+
+}
+
+.map img{
+    max-width: 100%;
+    height: auto;
+}

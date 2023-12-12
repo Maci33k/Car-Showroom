@@ -1,0 +1,32 @@
+#footer{
+    background-color: black;
+    color: white;
+    margin-top: 5%;
+  }
+  
+  #footer h2{
+    padding-top: 20%;
+  }
+  
+  #footer p{
+    padding-top: 20%;
+  }
+  .li1{
+    padding: 10%;
+    
+  }
+  
+  a:any-link {
+    color: white;
+    text-decoration-line: none;
+  }
+  
+  .li2{
+    padding: 5%;
+    
+  }
+
+  a:any-link:hover{
+    color: red;
+  }
+

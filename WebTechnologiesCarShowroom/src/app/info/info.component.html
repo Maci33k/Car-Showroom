@@ -1,0 +1,110 @@
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<h1 style="text-align: center;">Ecco come <span> lavoriamo </span> </h1>
+<div class="container" id="contenitorenav">
+<div class="d-flex">
+    <div ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-pills flex-column" orientation="vertical" >
+      <ng-container ngbNavItem="top">
+        <button ngbNavLink [ngClass]="'btn-' + activeButtonColor" >Introduzione</button>
+        <ng-template ngbNavContent>
+          <div class="container"> 
+            <div class="row justify-content-center"> 
+                <div class="col-5">
+                <img src="assets/sfondo.jpg" alt="">
+              </div>
+              <div class="col-5">
+                <h4>La <span> migliore </span> <br> concessionaria <span>per
+                </span> te</h4>
+                <p> La nostra azienda ha una storia radicata nel settore automobilistico che
+                    risale al <b>lontano 1975</b>, quando Arturo Martini ha avviato questa
+                    attività. Nel corso degli anni, grazie al nostro <b>impegno</b> e alla
+                    forte dedizione, siamo cresciuti fino a far diventare ArturAuto un
+                    <strong>sinonimo di professionalità, affidabilità e competenza!</strong>
+                    Siamo orgogliosi di offrire ai nostri clienti una vasta gamma di
+                    autovetture usate plurimarca,
+                    tutti selezionati e garantiti, e il tutto a prezzi molto competitivi.
+                </p>
+              </div>
+            </div>
+        </div>
+        </ng-template>
+      </ng-container>
+      <ng-container ngbNavItem="middle">
+        <button ngbNavLink [ngClass]="'btn-' + activeButtonColor">Missione</button>
+        <ng-template ngbNavContent>
+            <div class="container"> 
+                <div class="row justify-content-center"> 
+                    <div class="col-5">
+                    <img src="assets/sfondo.jpg" alt="">
+                  </div>
+                  <div class="col-5">
+                    <h4>La nostra <span> missione
+                    </span> </h4>
+                    <p>La nostra missione va oltre la semplice vendita di automobili. Grazie al
+                        contributo dei nostri validi collaboratori, gestiamo la nostra azienda
+                        con attenzione e professionalità, mantenendo al contempo un approccio
+                        <b>familiare</b> che ci consente di distinguerci in un mercato sempre
+                        più affollato e competitivo. <strong>Ogni giorno mettiamo a disposizione
+                            la nostra preparazio
+                            ne e la nostra correttezza</strong>, e nel tempo abbiamo conquistato
+                        una significativa fetta di mercato a livello nazionale.
+                    </p>
+                    
+                  </div>
+                </div>
+            </div>
+        </ng-template>
+      </ng-container>
+      <ng-container ngbNavItem="bottom">
+        <button ngbNavLink [ngClass]="'btn-' + activeButtonColor">
+          <span>Altre Info</span></button>
+        <ng-template ngbNavContent>
+            <div class="container"> 
+               
+                <div class=" row justify-content-center"> 
+                    <div class="col-5">
+                    <img src="assets/sfondo.jpg" alt="">
+                  </div>
+                  <div class="col-5">
+                    <h4>Altre info
+                     </h4>
+                    <p>Siamo orgogliosi di essere una famiglia di appassionati di auto. I nostri
+                        dipendenti, molti dei quali sono con noi da decenni, condividono la
+                        stessa passione per le automobili e lavorano instancabilmente per
+                        portare ai nostri clienti le ultime innovazioni e la massima qualità. Ci
+                        prendiamo il tempo di capire
+                        le esigenze dei nostri clienti, perché crediamo che l'acquisto di
+                        un'auto debba essere un'esperienza speciale
+
+                        ontinueremo a evolverci e a innovare per offrire i veicoli più
+                        all'avanguardia e le soluzioni di mobilità più avanzate. Siamo impegnati
+                        a mantenere i nostri alti standard di servizio e a costruire relazioni
+                        durature con i nostri clienti</p>
+                    
+                  </div>
+                </div>
+            </div>
+        </ng-template>
+      </ng-container>
+    </div>
+    
+    <div [ngbNavOutlet]="nav" class="ms-4"></div>
+    </div>
+
+</div>
+    <h1 id="titolo">Visita il nostro parco auto</h1>
+<div class="container" id="contenitore">
+    <div class="row  row-cols-1 row-cols-sm-2">
+        <div class="col">
+        <img src="assets/fotoinfo.jpeg" alt="">
+        </div>
+        <div class="col">
+            <p>Guardando al <b>futuro</b>, continueremo a evolverci e a innovare per offrire i veicoli più all'avanguardia e le soluzioni di mobilità più avanzate. Siamo impegnati a mantenere i nostri alti standard di servizio e a costruire relazioni durature con i nostri clienti, proprio come lo abbiamo fatto dalla nostra nascita. Siamo pronti ad affrontare le sfide del futuro e a sfruttare le opportunità che l'industria automobilistica ci offre.
+            </p>
+            <p>Siamo <strong>orgogliosi di fare parte di questa comunità </strong>e crediamo nell'importanza di restituire. Sosteniamo attivamente iniziative locali e organizziamo eventi per condividere la nostra passione per le automobili con la comunità. Ci impegniamo a essere un partner affidabile e responsabile per la nostra comunità, oltre che per i nostri clienti.</p>
+            <br><br>
+            <a routerLink="/car-list" id="link">PARCO AUTO</a>
+        </div>
+    </div>
+</div>

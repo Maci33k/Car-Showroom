@@ -1,0 +1,41 @@
+
+/*contact form*/
+#back{
+  background-color: #f2f2f2;
+}
+
+#containerform{
+  padding:  20%;
+  width: 100%;
+ }
+ #form{
+   padding-right: 10%;
+ }
+ #bottone{
+  background-color: red;
+ }
+
+ #bottone:hover{
+  background-color: rgba(255, 0, 0, 0.637);
+ }
+/*codice per icone*/
+.fa {
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 1;
+}
+
+.fa-facebook {
+
+  color: blue;
+}
+
+.fa-instagram{
+
+  color:magenta;
+}
+

@@ -1,0 +1,60 @@
+/*header*/
+.logo
+{
+  align-items: center;
+  display: flex;
+  padding-right: 450px;
+}
+
+.logo-image
+{
+  height: 80px;
+}
+
+.icon
+{
+  padding-right: 50px;
+  cursor: pointer;
+}
+
+.icon:hover
+{
+  color: silver;
+}
+
+a:any-link{
+  text-decoration-line: none;
+  color:black;
+}
+
+a:any-link:hover{
+  color:red;
+}
+
+ 
+/*codice per icone*/
+.fa {
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 1;
+}
+
+.fa-facebook {
+
+  color: blue;
+}
+
+.fa-instagram{
+
+  color:magenta;
+}
+
+.col-1{
+  align-content: center;
+  padding: 2%;
+  text-align: center;
+}
